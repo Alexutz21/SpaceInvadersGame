@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413398307073773876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -35.054855, y: -12.281564, z: 0.42224747}
+  m_LocalPosition: {x: -32.62, y: -15, z: 0.42224747}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -94,6 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1872357320093308469}
   - component: {fileID: -4127965823058091459}
+  - component: {fileID: 506393994}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -147,3 +148,15 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &506393994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746825348378637663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915ceb89861db8245a24efa9bbf049a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
