@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19291898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 9.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -401,11 +401,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1407675188637763257, guid: b4f615e94c21e31439f3b2d206a83988, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 1407675188637763257, guid: b4f615e94c21e31439f3b2d206a83988, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8
+      value: -1.59
       objectReference: {fileID: 0}
     - target: {fileID: 1407675188637763257, guid: b4f615e94c21e31439f3b2d206a83988, type: 3}
       propertyPath: m_LocalPosition.z
@@ -445,11 +445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7624380914418956997, guid: b4f615e94c21e31439f3b2d206a83988, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.7
+      value: -2.34
       objectReference: {fileID: 0}
     - target: {fileID: 7624380914418956997, guid: b4f615e94c21e31439f3b2d206a83988, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.3
+      value: 5.59
       objectReference: {fileID: 0}
     - target: {fileID: 7624380914418956997, guid: b4f615e94c21e31439f3b2d206a83988, type: 3}
       propertyPath: m_LocalPosition.z
@@ -479,6 +479,22 @@ PrefabInstance:
     - target: {fileID: 506393994, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: moveSpeed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 506393994, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: paddingTop
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 506393994, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: paddingLeft
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 506393994, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: paddingRight
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 506393994, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: paddingBottom
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_RootOrder
