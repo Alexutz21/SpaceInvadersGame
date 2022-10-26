@@ -12,14 +12,14 @@ public class WaveConfigSO : ScriptableObject
     {
         return pathPrefab.GetChild(0);
     }
-    public List<Transform> GetWaypoint()
+    public List<Transform> GetWaypoints()
     {
-        List<Transform> waypoint = new List<Transform>();
+        List<Transform> waypoints = new List<Transform>();
         foreach (Transform child in pathPrefab)
         {
-            waypoint.Add(child);
+            waypoints.Add(child);
         }
-        return waypoint;
+        return waypoints;
     }
 
     public float GetMoveSpeed()
