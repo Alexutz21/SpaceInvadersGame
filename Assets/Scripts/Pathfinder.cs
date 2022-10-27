@@ -18,13 +18,14 @@ public class Pathfinder : MonoBehaviour
     {
         FollowPath();
     }
+
     void FollowPath()
     {
         if (waypointIndex < waypoints.Count)
         {
             Vector3 targetPosition = waypoints[waypointIndex].position;
-            float delta = waveConfig.GetMoveSpeed() * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, targetPosition, delta);
+            float step = waveConfig.GetMoveSpeed() * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, step);
             if (transform.position == targetPosition)
             {
                 waypointIndex++;
@@ -36,3 +37,4 @@ public class Pathfinder : MonoBehaviour
         }
     }
 }
+
