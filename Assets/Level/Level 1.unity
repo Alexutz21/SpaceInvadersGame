@@ -195,7 +195,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 932b7cad22969e146a1b39550c333a07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -354,7 +354,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31d920123f34dd04eb645b28e34e115b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWave: {fileID: 11400000, guid: 0aeedca7117f6c34a9b6aafd9da3c65a, type: 2}
+  waveConfigs:
+  - {fileID: 11400000, guid: 0aeedca7117f6c34a9b6aafd9da3c65a, type: 2}
+  - {fileID: 11400000, guid: 4011ccac58e9c5d4c9e0f05c2848207c, type: 2}
+  - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
+  - {fileID: 11400000, guid: 0aeedca7117f6c34a9b6aafd9da3c65a, type: 2}
+  - {fileID: 11400000, guid: 4011ccac58e9c5d4c9e0f05c2848207c, type: 2}
+  - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
+  - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
+  - {fileID: 11400000, guid: 141ff6de49af7584fb1e6a000809cfd9, type: 2}
+  - {fileID: 11400000, guid: 0aeedca7117f6c34a9b6aafd9da3c65a, type: 2}
+  - {fileID: 11400000, guid: 4011ccac58e9c5d4c9e0f05c2848207c, type: 2}
+  - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
+  - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
+  - {fileID: 11400000, guid: 141ff6de49af7584fb1e6a000809cfd9, type: 2}
+  - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
+  - {fileID: 11400000, guid: f2289bbe967bf2c4c9f4aee5ce969f3d, type: 2}
+  timeBetweenWaves: 2
 --- !u!4 &1119630369
 Transform:
   m_ObjectHideFlags: 0
