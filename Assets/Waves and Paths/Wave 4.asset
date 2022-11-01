@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Wave 4
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 5155435196393670537, guid: e94ef0fc3eee88349b5665ff4f691b86, type: 3}
-  - {fileID: 7854601109660656952, guid: d412bc48121bdd747bb7811cf81757f3, type: 3}
-  - {fileID: 1855367231063431100, guid: bc139289bff55c249a9c6b0e1048a195, type: 3}
-  - {fileID: 5155435196393670537, guid: e94ef0fc3eee88349b5665ff4f691b86, type: 3}
-  - {fileID: 7854601109660656952, guid: d412bc48121bdd747bb7811cf81757f3, type: 3}
-  - {fileID: 1855367231063431100, guid: bc139289bff55c249a9c6b0e1048a195, type: 3}
-  - {fileID: 5155435196393670537, guid: e94ef0fc3eee88349b5665ff4f691b86, type: 3}
-  - {fileID: 7854601109660656952, guid: d412bc48121bdd747bb7811cf81757f3, type: 3}
-  - {fileID: 1855367231063431100, guid: bc139289bff55c249a9c6b0e1048a195, type: 3}
+  - {fileID: 8065723498785415337, guid: 497f96154bba2e74e8985a252467ee63, type: 3}
+  - {fileID: 8065723498785415337, guid: 497f96154bba2e74e8985a252467ee63, type: 3}
+  - {fileID: 858719383539915868, guid: 42101b5c3bea62144b03df9ab0e219e0, type: 3}
+  - {fileID: 858719383539915868, guid: 42101b5c3bea62144b03df9ab0e219e0, type: 3}
+  - {fileID: 858719383539915868, guid: 42101b5c3bea62144b03df9ab0e219e0, type: 3}
+  - {fileID: 4844655616350588191, guid: 96681c8d70264e740b81f9621b5ed75d, type: 3}
+  - {fileID: 4844655616350588191, guid: 96681c8d70264e740b81f9621b5ed75d, type: 3}
+  - {fileID: 5532048243447640148, guid: 9edfe011ef6a617449cf24071a9f8819, type: 3}
+  - {fileID: 5532048243447640148, guid: 9edfe011ef6a617449cf24071a9f8819, type: 3}
   pathPrefab: {fileID: 7585110300001729776, guid: 63b5fa042cb5381438dd52c7cd144468, type: 3}
   moveSpeed: 5
   timeBetweenEnemyRespowns: 1
