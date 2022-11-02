@@ -13,7 +13,6 @@ public class Shooter : MonoBehaviour
 
     Coroutine firingCoroutine;
 
-
     void Start()
     {
 
@@ -23,6 +22,7 @@ public class Shooter : MonoBehaviour
     {
         Fire();
     }
+
     void Fire()
     {
         if (isFiring && firingCoroutine == null)
@@ -32,10 +32,10 @@ public class Shooter : MonoBehaviour
         else if (!isFiring && firingCoroutine != null)
         {
             StopCoroutine(firingCoroutine);
-            //firingCoroutine = null;
+            firingCoroutine = null;
         }
-
     }
+
     IEnumerator FireContinuously()
     {
         while (true)
@@ -54,4 +54,5 @@ public class Shooter : MonoBehaviour
             yield return new WaitForSeconds(firingRate);
         }
     }
+
 }

@@ -18,10 +18,11 @@ public class Player : MonoBehaviour
 
     Shooter shooter;
 
-    void Aqake()
+    void Awake()
     {
-        shooter.GetComponent<Shooter>();
+        shooter = GetComponent<Shooter>();
     }
+
 
     void Start()
     {
@@ -58,4 +59,5 @@ public class Player : MonoBehaviour
             shooter.isFiring = value.isPressed;
         }
     }
+
 }

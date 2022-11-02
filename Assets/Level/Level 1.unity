@@ -431,12 +431,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.22
       objectReference: {fileID: 0}
     - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.52
+      value: -3.86
       objectReference: {fileID: 0}
     - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_LocalPosition.z
@@ -470,17 +478,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5969449494905681205, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: isFiring
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7746825348378637663, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8544630326412499786, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
-      propertyPath: isFiring
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8544630326412499786, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
-      propertyPath: projectilePrefab
-      value: 
-      objectReference: {fileID: 6974772352721353117, guid: 88f9dfeb57d65fb40b29de434070d1ec, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
