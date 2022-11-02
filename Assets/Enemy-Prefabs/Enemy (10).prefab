@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2895502312246691442}
   - component: {fileID: 2975405713780755518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: spaceShips_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: -1784991940505402118}
   - component: {fileID: -8868739207527912159}
   - component: {fileID: -3134864149205427163}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
