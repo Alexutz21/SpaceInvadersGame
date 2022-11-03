@@ -370,9 +370,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfigs:
+  - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
   - {fileID: 11400000, guid: 0aeedca7117f6c34a9b6aafd9da3c65a, type: 2}
   - {fileID: 11400000, guid: 4011ccac58e9c5d4c9e0f05c2848207c, type: 2}
-  - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
   - {fileID: 11400000, guid: 141ff6de49af7584fb1e6a000809cfd9, type: 2}
   - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
   - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
@@ -409,7 +409,7 @@ Transform:
   m_Children:
   - {fileID: 19291899}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5939055124502805557
 PrefabInstance:
@@ -428,7 +428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_LocalScale.x
