@@ -8,13 +8,30 @@ public class AudioPlayer : MonoBehaviour
     [SerializeField] AudioClip shootingClip;
     [SerializeField][Range(0f, 1f)] float shootingVolume = 1f;
 
+    [Header("Damage")]
+    [SerializeField] AudioClip damageClip;
+    [SerializeField][Range(0f, 1f)] float damageVolume = 1f;
+
     public void PlayShootingClip()
     {
-        if (shootingClip != null)
+        PlayClip(shootingClip, shootingVolume);
+    }
+    public void PlayDamageClip()
+    {
+        // if (damageClip != null)
+        // {
+        //     AudioSource.PlayClipAtPoint(damageClip,
+        //                                 Camera.main.transform.position,
+        //                                 damageVolume);
+        // } we change this to that
+        PlayClip(damageClip, damageVolume);
+    }
+    void PlayClip(AudioClip clip, float volume)
+    {
+        if (clip != null)
         {
-            AudioSource.PlayClipAtPoint(shootingClip,
-                                        Camera.main.transform.position,
-                                        shootingVolume);
+            Vector3 cameraPos = Camera.main.transform.position;
+            AudioSource.PlayClipAtPoint(clip, cameraPos, volume);
         }
     }
 }
