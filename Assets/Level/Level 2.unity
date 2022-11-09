@@ -754,6 +754,8 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
   - {fileID: 11400000, guid: 141ff6de49af7584fb1e6a000809cfd9, type: 2}
+  - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
+  - {fileID: 11400000, guid: 141ff6de49af7584fb1e6a000809cfd9, type: 2}
   - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
   - {fileID: 11400000, guid: 4011ccac58e9c5d4c9e0f05c2848207c, type: 2}
   - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
