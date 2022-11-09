@@ -754,13 +754,17 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: 0aeedca7117f6c34a9b6aafd9da3c65a, type: 2}
   - {fileID: 11400000, guid: 4011ccac58e9c5d4c9e0f05c2848207c, type: 2}
-  - {fileID: 11400000, guid: 0aeedca7117f6c34a9b6aafd9da3c65a, type: 2}
-  - {fileID: 11400000, guid: 4011ccac58e9c5d4c9e0f05c2848207c, type: 2}
   - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
   - {fileID: 11400000, guid: 141ff6de49af7584fb1e6a000809cfd9, type: 2}
   - {fileID: 11400000, guid: 080aa8581822c3c4a989638c21391354, type: 2}
   - {fileID: 11400000, guid: 141ff6de49af7584fb1e6a000809cfd9, type: 2}
-  timeBetweenWaves: 2
+  - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
+  - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
+  - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
+  - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
+  - {fileID: 11400000, guid: f2289bbe967bf2c4c9f4aee5ce969f3d, type: 2}
+  - {fileID: 11400000, guid: f2289bbe967bf2c4c9f4aee5ce969f3d, type: 2}
+  timeBetweenWaves: 1
   isLooping: 1
 --- !u!1 &1363936697
 GameObject:
@@ -1100,6 +1104,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6526413692870531237, guid: e45faa589b9d9174eb7f7d9e49202523, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 452067f49789eb44eb2a4f8b7650cc2a, type: 3}
     - target: {fileID: 6526413692870531258, guid: e45faa589b9d9174eb7f7d9e49202523, type: 3}
       propertyPath: m_Name
       value: AudioPlayer
@@ -1422,6 +1430,10 @@ PrefabInstance:
     - target: {fileID: 217278499, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: paddingRight
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718365518569138277, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
+      propertyPath: health
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1872357320093308469, guid: 1acab406ad4457c4b9133e43361426de, type: 3}
       propertyPath: m_RootOrder
