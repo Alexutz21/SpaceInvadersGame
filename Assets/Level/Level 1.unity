@@ -761,8 +761,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
   - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
   - {fileID: 11400000, guid: f0adde7ee1712e842ba23252b91b9834, type: 2}
-  - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
   - {fileID: 11400000, guid: f2289bbe967bf2c4c9f4aee5ce969f3d, type: 2}
+  - {fileID: 11400000, guid: bd214d16f0185cd499afe96e37422d60, type: 2}
   - {fileID: 11400000, guid: f2289bbe967bf2c4c9f4aee5ce969f3d, type: 2}
   timeBetweenWaves: 1
   isLooping: 1

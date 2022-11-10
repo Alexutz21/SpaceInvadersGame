@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 392
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 114
+  controlID: 96
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 115
+  controlID: 97
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 116
+  controlID: 98
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -355,10 +355,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 21.400024}
-    m_SelectedIDs: e0700000
-    m_LastClickedID: 28896
-    m_ExpandedIDs: 00000000c470000000ca9a3b
+    scrollPos: {x: 0, y: 49.400024}
+    m_SelectedIDs: d8700000
+    m_LastClickedID: 28888
+    m_ExpandedIDs: 00000000be700000d270000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c4700000
+    m_ExpandedIDs: 00000000be700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -430,7 +430,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 1056.8
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -514,9 +514,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ec700000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f4e5ffffc4e9ffff18f7ffff20fbffff089700002c970000369a00005a9a0000
+      m_ExpandedIDs: 5e85fdff8eb5fdff8cb6fdffc0d7fdff84dafdfff6ddfdff98e1fdffb6effdff1e0afeff120bfeff060cfefffc0cfeff200efeff1e0ffeff3c10feff3011feff2412feff1a13feff5a14feff4e15feff4c16feffb417feffa818feffa619feffce1afeffc21bfeffc81cfeff201efeff261ffeff4023feffaa3bfeffa03cfeff9e3dfeffb43efeffb23ffeff0e42feff4643feff4644feffd24afefff256feffb85bfeffbe5ffeffb260feffa661feff9c62feff0464feff5065feff3c66feff2a67feff1668feff0469fefff069fefff06afeff7e6dfeff7c6efeff7672feff4e77feff4a7bfeff067cfeff207efeff92adfeffa6d7feff0adffeff98f1feff20f3feff2af3feff80f4feff6ef5feff46f6feff34f7feff0cf8fefffaf8fefff6f9feffae57ffff945bffff4863ffff447efffff27ffffffa8cffff62c3ffffeec5ffff44c9ffff5accffff36cdffff3cf8ffff2ef9ffff28fbffff9074000088a00000bca00000d2a2000000ad000098bd00000af70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -532,7 +532,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -573,8 +573,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -595,7 +595,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -787,9 +787,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 193.88367, y: 145.74608, z: -4.649786}
+    m_Target: {x: 6.8128285, y: 5.4536023, z: 1.2773906}
     speed: 2
-    m_Value: {x: 193.88367, y: 145.74608, z: -4.649786}
+    m_Value: {x: 6.8128285, y: 5.4536023, z: 1.2773906}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -840,9 +840,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 393.60547
+    m_Target: 19.212454
     speed: 2
-    m_Value: 393.60547
+    m_Value: 19.212454
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -928,7 +928,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
